@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: DIST
+Version: 1.0
+Summary: Denoise and Impute Spatial Transcriptomics
+Home-page: https://github.com/zhaoyp1997/DIST.git
+Author: Yanping Zhao, Gang Hu
+Author-email: 1786548199@qq.com, huggs@nankai.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6,<=3.8
+License-File: LICENSE
+
+Spatially resolved transcriptomics technologies enable comprehensive measurement of gene expression patterns in the context of intact tissues. However, existing technologies suffer from either low resolution or shallow sequencing depth. So, we present DIST, a deep learning-based method that enhance spatial transcriptomics data by self-supervised learning or transfer learning. Through self-supervised learning, DIST can impute the gene expression levels at unmeasured area accurately and improve the data quality in terms of total counts and percentage of dropout. Moreover, transfer learning enables DIST improve the imputed gene expressions by borrowing information from other high-quality data.
+
